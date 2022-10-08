@@ -1,6 +1,5 @@
 import 'package:flutter/painting.dart';
 
-// 1
 enum Importance {
   low,
   medium,
@@ -8,10 +7,7 @@ enum Importance {
 }
 
 class GroceryItem {
-  // 2
   final String id;
-
-  // 3
   final String name;
   final Importance importance;
   final Color color;
@@ -29,7 +25,6 @@ class GroceryItem {
     this.isComplete = false,
   });
 
-  // 4
   GroceryItem copyWith({
     String? id,
     String? name,
